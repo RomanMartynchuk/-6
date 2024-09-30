@@ -1,0 +1,12 @@
+my_dict={'Anna':1990, 'Roman':1994, 'Max':2000}
+print(my_dict)
+print("Existing value:",my_dict['Anna'])
+print("Not existing value:",my_dict.get('Denis'))
+my_dict.update({'Masha':1980,'Sasha':2010})
+del my_dict['Roman']
+print(my_dict)
+print(' ') # отступ для вывода
+my_set={24,False, 12,'Misha',12,45,False,12,15,'Roman','Roman',12,'Misha',(7,2,),False,45}
+print('Set:',my_set)
+my_set.update({3,True})
+print('Modified set:',my_set)
